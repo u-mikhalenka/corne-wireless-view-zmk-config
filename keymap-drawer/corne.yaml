@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Base:
+  base:
   - ''
   - Q
   - W
@@ -42,7 +42,7 @@ layers:
   - {t: TAB, h: num}
   - {t: RET, h: fn_left}
   - {t: SPACE, h: nav}
-  - ''
+  - {t: BACKSPACE, h: sym}
   nav:
   - ''
   - ''
@@ -215,6 +215,49 @@ layers:
   - ''
   - ''
   - ''
+  sym:
+  - ''
+  - '-'
+  - Sft+<
+  - Sft+{
+  - Sft+}
+  - Sft+>
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft++
+  - '='
+  - Sft+(
+  - Sft+)
+  - Sft+!
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - SPACE
+  - Sft+^
+  - '['
+  - ']'
+  - Sft+$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
 combos:
 - p: [7, 8]
   k: BACKSPACE
