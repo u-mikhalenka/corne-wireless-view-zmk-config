@@ -1,5 +1,7 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     behaviors {
@@ -187,10 +189,10 @@
         media {
             display-name = "media";
             bindings = <
-&none  &none  &kp C_MUTE  &kp C_VOL_UP  &kp C_VOL_DN  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &kp C_PREV  &kp C_PP      &kp C_NEXT    &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none       &none         &none         &none    &none  &none  &none  &none  &none  &none
-                          &none         &none         &none    &none  &none  &none
+&to 6  &none  &kp C_MUTE       &kp C_VOL_UP  &kp C_VOL_DN     &none    &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none  &none
+&none  &none  &kp C_PREV       &kp C_PP      &kp C_NEXT       &none    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
+&none  &none  &kp PRINTSCREEN  &kp SYSREQ    &kp PAUSE_BREAK  &none    &none           &none           &none           &none            &none  &none
+                               &none         &none            &none    &mkp MB1        &mkp MB2        &mkp MB3
             >;
 
             label = "media";
@@ -205,6 +207,17 @@
             >;
 
             label = "sym";
+        };
+
+        sys {
+            bindings = <
+&to 0  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bootloader  &sys_reset  &none  &none  &none  &none
+&none  &none         &none         &none         &none         &bt BT_CLR        &none        &none       &none  &none  &none  &none
+&none  &bootloader   &sys_reset    &none         &none         &bt BT_CLR_ALL    &none        &none       &none  &none  &none  &none
+                                   &none         &none         &none             &none        &none       &none
+            >;
+
+            label = "sys";
         };
     };
 };
