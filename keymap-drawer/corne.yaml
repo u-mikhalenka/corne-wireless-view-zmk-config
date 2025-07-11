@@ -173,16 +173,16 @@ layers:
   - ''
   - ''
   media:
-  - ''
+  - {t: sys, h: toggle}
   - ''
   - MUTE
   - VOL UP
   - VOL DN
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
   - ''
   - ''
   - ''
@@ -191,14 +191,17 @@ layers:
   - PP
   - NEXT
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - ''
   - ''
   - {type: held}
   - ''
+  - PRINTSCREEN
+  - SYSREQ
+  - PAUSE BREAK
   - ''
   - ''
   - ''
@@ -209,12 +212,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   sym:
   - ''
   - '-'
@@ -258,6 +258,49 @@ layers:
   - ''
   - ''
   - {type: held}
+  sys:
+  - {t: base, h: toggle}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [7, 8]
   k: BACKSPACE
