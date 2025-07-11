@@ -1,2 +1,2 @@
 # Keymap
-![keymap](./keymap-drawer/slicemk_ergodox.svg)
+![keymap](./keymap-drawer/corne.svg)
