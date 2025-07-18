@@ -14,7 +14,7 @@ layers:
   - P
   - ''
   - ESCAPE
-  - {t: A, h: LCTRL}
+  - {t: A, h: LEFT GUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
