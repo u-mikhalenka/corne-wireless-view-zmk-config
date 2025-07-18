@@ -64,11 +64,13 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
+            require-prior-idle-ms = <50>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
+            require-prior-idle-ms = <50>;
         };
 
         left_bracket {
