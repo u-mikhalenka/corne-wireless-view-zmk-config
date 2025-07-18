@@ -45,11 +45,11 @@ layers:
   - {t: BACKSPACE, h: sym}
   nav:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '-'
+  - <
+  - '{'
+  - '}'
+  - '>'
   - HOME
   - PAGE DOWN
   - PAGE UP
@@ -57,11 +57,11 @@ layers:
   - INSERT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
-  - ''
+  - {t: +, h: LGUI}
+  - {t: '=', h: LALT}
+  - {t: (, h: LCTRL}
+  - {t: ), h: LSHFT}
+  - '!'
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
@@ -69,11 +69,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - ''
+  - Ctl+SPACE
+  - Ctl+^
+  - Ctl+[
+  - Ctl+]
+  - $
   - BACKSPACE
   - DELETE
   - {t: ▽, type: trans}
