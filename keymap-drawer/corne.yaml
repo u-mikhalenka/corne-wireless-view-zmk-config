@@ -18,7 +18,7 @@ layers:
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
-  - H
+  - G
   - H
   - {t: J, h: RSHFT}
   - {t: K, h: LCTRL}
