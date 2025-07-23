@@ -151,10 +151,10 @@
         nav {
             display-name = "nav";
             bindings = <
-&none   &kp MINUS       &kp LT           &kp LBRC         &kp RBRC         &kp GT      &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp INSERT  &trans
-&trans  &thl LGUI PLUS  &thl LALT EQUAL  &thl LCTRL LPAR  &thl LSHFT RPAR  &kp EXCL    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans      &trans
-&none   &kp SPACE       &kp CARET        &kp LBKT         &kp RBKT         &kp DLLR    &kp BACKSPACE   &kp DELETE      &trans        &trans           &trans      &trans
-                                         &trans           &trans           &trans      &trans          &trans          &trans
+&none   &kp MINUS        &kp LT           &kp LBRC         &kp RBRC         &kp GT      &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp INSERT  &trans
+&trans  &thl LGUI SPACE  &thl LALT EQUAL  &thl LCTRL LPAR  &thl LSHFT RPAR  &kp EXCL    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans      &trans
+&none   &kp PLUS         &kp CARET        &kp LBKT         &kp RBKT         &kp DLLR    &kp BACKSPACE   &kp DELETE      &trans        &trans           &trans      &trans
+                                          &trans           &trans           &trans      &trans          &trans          &trans
             >;
 
             label = "nav";
@@ -198,10 +198,10 @@
 
         sym {
             bindings = <
-&none  &kp MINUS     &kp LS(LT)     &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(GT)      &none  &none  &none  &none  &none  &none
-&none  &kp LS(PLUS)  &kp EQUAL      &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(EXCL)    &none  &none  &none  &none  &none  &none
-&none  &kp SPACE     &kp LS(CARET)  &kp LBKT      &kp RBKT      &kp LS(DLLR)    &none  &none  &none  &none  &none  &none
-                                    &none         &none         &none           &none  &none  &none
+&none  &kp MINUS  &kp LT     &kp LBRC  &kp RBRC  &kp GT      &none  &none  &none  &none  &none  &none
+&none  &kp SPACE  &kp EQUAL  &kp LPAR  &kp RPAR  &kp EXCL    &none  &none  &none  &none  &none  &none
+&none  &kp PLUS   &kp CARET  &kp LBKT  &kp RBKT  &kp DLLR    &none  &none  &none  &none  &none  &none
+                             &none     &none     &none       &none  &none  &none
             >;
 
             label = "sym";
