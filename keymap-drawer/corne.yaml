@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - ''
+  - '-'
   - ESCAPE
   - {t: A, h: LEFT GUI}
   - {t: S, h: LALT}
