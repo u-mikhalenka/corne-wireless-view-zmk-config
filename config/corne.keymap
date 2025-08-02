@@ -139,7 +139,7 @@
         base {
             display-name = "base";
             bindings = <
-&none       &kp Q                    &kp W        &kp E         &kp R            &kp T         &kp Y       &kp U         &kp I            &kp O        &kp P                       &none
+&none       &kp Q                    &kp W        &kp E         &kp R            &kp T         &kp Y       &kp U         &kp I            &kp O        &kp P                       &kp MINUS
 &kp ESCAPE  &thl LEFT_GUI A          &thl LALT S  &thl LCTRL D  &thl LSHFT F     &kp G         &kp H       &thr RSHFT J  &thr LCTRL K     &thr LALT L  &thr LGUI SEMI              &kp SQT
 &mol 4 F13  &thl LS(LA(LC(LGUI))) Z  &kp X        &kp C         &kp V            &kp B         &kp N       &kp M         &kp COMMA        &kp PERIOD   &thr LC(LA(LS(LGUI))) FSLH  &kp BSLH
                                                   &none         &mt LSHFT GRAVE  &mol 2 TAB    &mor 3 RET  &mor 1 SPACE  &lt 5 BACKSPACE
