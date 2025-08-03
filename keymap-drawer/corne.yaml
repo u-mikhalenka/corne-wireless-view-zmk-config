@@ -43,6 +43,49 @@ layers:
   - {t: RET, h: fn_left}
   - {t: SPACE, h: nav}
   - {t: BACKSPACE, h: sym}
+  game:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LALT
+  - SPACE
+  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   nav:
   - ''
   - '-'
@@ -126,9 +169,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - SPACE
+  - .
   fn_left:
   - ''
   - ''
@@ -190,7 +233,7 @@ layers:
   - PREV
   - PP
   - NEXT
-  - ''
+  - {t: game, h: toggle}
   - '&msc SCRL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -202,7 +245,7 @@ layers:
   - PRINTSCREEN
   - SYSREQ
   - PAUSE BREAK
-  - ''
+  - {t: base, h: toggle}
   - ''
   - ''
   - ''
