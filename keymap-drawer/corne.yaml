@@ -88,11 +88,11 @@ layers:
   - {t: ▽, type: trans}
   nav:
   - ''
-  - '-'
-  - <
-  - '{'
-  - '}'
-  - '>'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
   - PAGE DOWN
   - PAGE UP
@@ -100,11 +100,11 @@ layers:
   - INSERT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: LGUI}
-  - {t: '=', h: LALT}
-  - {t: (, h: LCTRL}
-  - {t: ), h: LSHFT}
-  - '!'
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
@@ -112,11 +112,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - +
-  - ^
-  - '['
-  - ']'
-  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BACKSPACE
   - DELETE
   - {t: ▽, type: trans}
