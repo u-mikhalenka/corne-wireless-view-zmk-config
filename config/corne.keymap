@@ -162,10 +162,10 @@
         nav {
             display-name = "nav";
             bindings = <
-&none   &kp MINUS        &kp LT           &kp LBRC         &kp RBRC         &kp GT      &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp INSERT  &trans
-&trans  &thl LGUI SPACE  &thl LALT EQUAL  &thl LCTRL LPAR  &thl LSHFT RPAR  &kp EXCL    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans      &trans
-&none   &kp PLUS         &kp CARET        &kp LBKT         &kp RBKT         &kp DLLR    &kp BACKSPACE   &kp DELETE      &trans        &trans           &trans      &trans
-                                          &trans           &trans           &trans      &trans          &trans          &trans
+&none   &trans    &trans    &trans     &trans     &trans    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp INSERT  &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans      &trans
+&none   &trans    &trans    &trans     &trans     &trans    &kp BACKSPACE   &kp DELETE      &trans        &trans           &trans      &trans
+                            &trans     &trans     &trans    &trans          &trans          &trans
             >;
 
             label = "nav";
