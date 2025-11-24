@@ -39,7 +39,7 @@ layers:
   - {t: \, h: media}
   - {t: TAB, h: num}
   - {t: '`', h: LSHFT}
-  - {t: nav, h: nav}
+  - {t: TAB, h: nav}
   - {t: RET, h: fn_left}
   - {t: SPACE, h: sym}
   - {t: BACKSPACE, h: sym}
