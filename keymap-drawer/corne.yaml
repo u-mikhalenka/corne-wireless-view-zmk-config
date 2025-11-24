@@ -39,9 +39,9 @@ layers:
   - {t: \, h: media}
   - {t: TAB, h: num}
   - {t: '`', h: LSHFT}
-  - {t: nav_alt, h: nav_alt}
+  - {t: nav, h: nav}
   - {t: RET, h: fn_left}
-  - {t: SPACE, h: nav}
+  - {t: SPACE, h: sym}
   - {t: BACKSPACE, h: sym}
   game:
   - ESC
@@ -125,49 +125,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  nav_alt:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - HOME
-  - UP
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,7 +136,7 @@ layers:
   - ''
   - ''
   - ''
-  - '0'
+  - '='
   - '7'
   - '8'
   - '9'
@@ -203,7 +160,7 @@ layers:
   - ''
   - ''
   - ''
-  - '='
+  - '0'
   - '1'
   - '2'
   - '3'
@@ -215,13 +172,56 @@ layers:
   - ','
   - SPACE
   - .
+  sym:
+  - ''
+  - '-'
+  - <
+  - '{'
+  - '}'
+  - '>'
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - ''
+  - ''
+  - ''
+  - SPACE
+  - '='
+  - (
+  - )
+  - '!'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - +
+  - ^
+  - '['
+  - ']'
+  - $
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
   fn_left:
   - ''
   - INS
   - F9
   - F8
   - F7
-  - F10
+  - F12
   - ''
   - ''
   - ''
@@ -245,7 +245,7 @@ layers:
   - F3
   - F2
   - F1
-  - F12
+  - F10
   - ''
   - ''
   - ''
@@ -301,49 +301,6 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  sym:
-  - ''
-  - '-'
-  - <
-  - '{'
-  - '}'
-  - '>'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - SPACE
-  - '='
-  - (
-  - )
-  - '!'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - +
-  - ^
-  - '['
-  - ']'
-  - $
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
   sys:
   - {t: base, h: toggle}
   - {t: BT, h: '0'}
