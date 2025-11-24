@@ -25,7 +25,7 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: LGUI}
   - ''''
-  - {t: F13, h: media}
+  - {t: Gui+SPACE, h: media}
   - {t: Z, h: Meh+LGUI}
   - X
   - C
